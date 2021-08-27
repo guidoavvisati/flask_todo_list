@@ -2,3 +2,6 @@ flask
 flask_sqlalchemy
 pymysql
 pyyaml
+
+black
+flake8
