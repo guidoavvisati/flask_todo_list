@@ -1,8 +1,5 @@
-from flask import Flask, jsonify, render_template
+from flask import Flask
 
 app = Flask(__name__)
 
-
-@app.route("/")
-def homepage():
-    return render_template("index.html", name="GSpot")
+from app import routes
